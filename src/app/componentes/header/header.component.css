@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+
 }
 
 #informacion-header{
@@ -10,37 +11,89 @@
 nav{
 	background-color: #222222;
 }
+
+span{
+	font-weight: 700;
+	font-size: 18px;
+}
+
 .mb-2 {
 	width: 100%;
 }
 
+#info-confirmado{
+	background-color: #777!important;
+}
+
+#info-conf-n{
+	background-color: #595959!important;
+	/*text-align:center;*/
+}
+
+#info-infectado{
+	background-color: #b10dc9!important;
+}
+#info-infe-n{
+	background-color: #850a97!important;
+}
+#info-muertos{
+	background-color: #ff4136!important;
+}
+
+#info-muert-n{
+	background-color: #bf3129!important;
+}
+
+#info-recuperado{
+	background-color: #17ac28!important;
+}
+#info-recupe-n{
+    background-color:#105f19!important; 
+}
+
 @media (min-width: 992px){
-.col-lg-2 {
-	flex: 2 0 16.666667%;
-    max-width: 20.666667%;
-}
-h2{
-	margin-right: -19%;
-}
-#actualizado-info{
-	width: 100%;
-}
-}
-
-
-@media(min-width: 991px){
-	/*#confirmado-header{
+	.col-lg-2 {
+		flex: 2 0 16.666667%;
+		max-width: 20.666667%;
+	}
+	h2{
+		margin-right: -19%;
+	}
+	#actualizado-info{
 		width: 100%;
-	}*/
+	}
 	span{
 		width: 100%;
 		padding:auto;
 		text-indent: 5%;
+
 	}
 	.col-lg-2,.col-sm-12{
 		position: relative;
-		padding-right:11px;
-		padding-left: 20px;
+		padding-right:0px;
+		padding-left: 1px;
 
 	}
+	#info-confirmado,#info-infectado,#info-muertos,#info-recuperado{
+		border-radius: 0px 0px 0px 5px;
+		-moz-border-radius: 0px 0px 0px 5px;
+		-webkit-border-radius: 0px 0px 0px 5px;
+		border: 0px solid #000000;
+	}
+
+	#info-conf-n,#info-infe-n,#info-muert-n,#info-recupe-n{
+		border-radius: 0px 0px 5px 0px;
+		-moz-border-radius: 0px 0px 5px 0px;
+		-webkit-border-radius: 0px 0px 5px 0px;
+		border: 0px solid #000000;
+	}
+
+	#actualizado-info{
+		width:120%;
+	}
+	#info-conf-n,#info-infe-n,#info-muert-n,#info-recupe-n{
+		text-align:center!important;
+	}
+
 }
+
