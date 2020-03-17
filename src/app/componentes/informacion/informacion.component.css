@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+
+#informacion-header{
+	color:white;
+	display:inline;
+}
+
+nav{
+	background-color: #222222;
+}
+/*.liena{
+	display: inline;
+}*/
+/*#actualizado-info{
+	padding-left: 20%;
+	margin-left:20%;
+	background-color: #777777;
+	display: flex;
+	border-radius: 0;
+	width:90%
+}
+.actualizado-info-1{
+	background-color: #777;
+	display: flex;
+	font-weight:bold;
+
+}
+.actualizado-info-2{
+	background: rgba(0, 0, 0, 0.25);
+	display: flex;
+	font-weight:bold;
+
+}*/
+/*******************************/
+/*
+#confirmado-info{
+	background-color: #b10dc9;
+		display: flex;
+	border-radius: 0;
+}
+
+#muertos-info{
+	background-color:#ff4136;
+		display: flex;
+	border-radius: 0;
+}
+
+#curados-info{
+	background-color: #17ac28;
+		display: flex;
+	border-radius: 0;
+}
+
+
+.confirmado-info-1{
+	background-color: #b10dc9;
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}
+
+.confirmado-info-2{
+		background: rgba(0, 0, 0, 0.25);
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}
+
+.muertos-info-1{
+	background-color:#ff4136;
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}
+
+.muertos-info-2{
+		background: rgba(0, 0, 0, 0.25);
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}
+
+.curados-info-1{
+	background-color:#17ac28;
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}
+.curados-info-2{
+		background: rgba(0, 0, 0, 0.25);
+	font-weight:bold;
+	padding-left: 1px;
+	width: 50%;
+}*/

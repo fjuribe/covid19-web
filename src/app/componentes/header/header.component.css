@@ -1,0 +1,46 @@
+*{
+	box-sizing: border-box;
+}
+
+#informacion-header{
+	color:white;
+	display:inline;
+}
+
+nav{
+	background-color: #222222;
+}
+.mb-2 {
+	width: 100%;
+}
+
+@media (min-width: 992px){
+.col-lg-2 {
+	flex: 2 0 16.666667%;
+    max-width: 20.666667%;
+}
+h2{
+	margin-right: -19%;
+}
+#actualizado-info{
+	width: 100%;
+}
+}
+
+
+@media(min-width: 991px){
+	/*#confirmado-header{
+		width: 100%;
+	}*/
+	span{
+		width: 100%;
+		padding:auto;
+		text-indent: 5%;
+	}
+	.col-lg-2,.col-sm-12{
+		position: relative;
+		padding-right:11px;
+		padding-left: 20px;
+
+	}
+}
