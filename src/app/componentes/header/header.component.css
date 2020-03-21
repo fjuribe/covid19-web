@@ -14,7 +14,25 @@ nav{
 
 span{
 	font-weight: 700;
-	font-size: 18px;
+	font-size: 15px;
+}
+.boton-menu{
+	/*background-color:#165bff!important;*/
+	font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.flecha-down {
+
+    width:0px;
+    height:0px;
+    border-left:10px solid transparent; /* izquierda flecha */
+    border-right:10px solid transparent; /* derecha flecha */
+    border-top:10px solid #00FF00; /* base flecha y color*/
+    font-size:0px;
+    line-height:0px;
+    margin:auto;
 }
 
 .mb-2 {
@@ -23,6 +41,7 @@ span{
 
 #info-confirmado{
 	background-color: #777!important;
+	font-weight: 900!important;
 }
 
 #info-conf-n{
@@ -32,12 +51,14 @@ span{
 
 #info-infectado{
 	background-color: #b10dc9!important;
+	font-weight: 900!important;
 }
 #info-infe-n{
 	background-color: #850a97!important;
 }
 #info-muertos{
 	background-color: #ff4136!important;
+	font-weight: 900!important;
 }
 
 #info-muert-n{
@@ -46,6 +67,7 @@ span{
 
 #info-recuperado{
 	background-color: #17ac28!important;
+	font-weight: 900!important;
 }
 #info-recupe-n{
     background-color:#105f19!important; 
@@ -95,5 +117,25 @@ span{
 		text-align:center!important;
 	}
 
+}
+
+@media(max-width:315px){
+    #repo-boton1,#repo-boton2{
+    	display: none!important;
+    }
+}
+
+@media(max-width:491px){
+
+	#repo-boton1{
+          display: none!important;
+	}
+}
+
+@media(min-width:492px){
+
+	#repo-boton2{
+         display: none!important;
+	}
 }
 
