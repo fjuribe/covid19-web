@@ -1,3 +1,362 @@
 *{
 	box-sizing: border-box;
+
+}
+/*********************************/
+.btn{
+	        padding: 1.85rem -0.5rem!important;
+	        background-color: #165bff;
+	        font-size: 1.5rem;
+	        margin-bottom: 4px;
+}
+/*@media(max-width: 291px) and (min-width: 892px){
+	.dropdown{
+		margin-bottom:5px!important;
+	}
+}*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#caja-central{
+    cursor: default;
+    background: #111111;
+    box-shadow: 0 10px 10px #000;
+    position: absolute;
+    font-size: 0px;
+    font-weight: 400;
+    left:-1px;
+    top:-3%;
+    max-height: 300px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /*border-top: 5px solid #165bff;*/
+    /*min-width: 250px;*/
+    display: block;
+}
+.label{
+	padding: 5px 0 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.caja-interna:hover{
+  background-color:#909090!important;
+}
+
+#caja-central:after{
+	content: "";
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: 7px;
+    width: 0;
+    height: 0;
+
+
+ /*   border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #093cb5;*/
+}
+
+.caja-interna{
+	padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #444444;
+    border-bottom: 2px solid #333333;
+    white-space: nowrap;
+    color: #ffffff;
+    user-select: none;
+}
+#buscar{
+	width: 98%;
+    margin: 5px;
+    font-size: 16px;
+    height: 30px;
+    padding: 5px 5px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Roboto", "FontAwesome", sans-serif;
+}
+
+@media(max-width: 600px){
+
+	.label{
+        text-align:center;
+    }
+}
+
+@media (max-width: 767px){
+.dropdownbtn ul {
+    top: 40px;
+    right: 0;
+    width: calc(100vw - 20px);
+    text-align: center;
+}
+}
+
+@media(min-width: 320px){
+       #caja-central{
+       	    width: 185%!important;
+       }
+}
+
+@media(min-width: 330px){
+       #caja-central{
+       	    width: 192%!important;
+       }
+}
+@media(min-width: 340px){
+       #caja-central{
+       	    width: 199%!important;
+       }
+}
+
+@media(min-width: 350px){
+       #caja-central{
+       	    width: 205%!important;
+       }
+}
+@media(min-width: 360px){
+       #caja-central{
+       	    width: 215%!important;
+       }
+}
+@media(min-width: 370px){
+       #caja-central{
+       	    width: 217%!important;
+       }
+}
+@media(min-width: 380px){
+       #caja-central{
+       	    width: 224%!important;
+       }
+}
+@media(min-width: 390px){
+       #caja-central{
+       	    width: 232%!important;
+       }
+}
+@media(min-width: 400px){
+       #caja-central{
+       	    width: 237%!important;
+       }
+}
+@media(min-width: 410px){
+       #caja-central{
+       	    width: 242%!important;
+       }
+}
+
+@media(min-width: 420px){
+       #caja-central{
+       	    width: 252%!important;
+       }
+}
+
+@media(min-width: 430px){
+       #caja-central{
+       	    width: 257%!important;
+       }
+}
+@media(min-width: 440px){
+       #caja-central{
+       	    width: 262%!important;
+       }
+}
+@media(min-width: 450px){
+       #caja-central{
+       	    width: 269%!important;
+       }
+}
+@media(min-width: 460px){
+       #caja-central{
+       	    width: 278%!important;
+       }
+}
+
+@media(min-width: 470px){
+       #caja-central{
+       	    width: 284%!important;
+       }
+}
+
+@media(min-width: 480px){
+       #caja-central{
+       	    width: 289%!important;
+       }
+}
+
+@media(min-width: 490px){
+       #caja-central{
+       	    width: 296%!important;
+       }
+}
+
+@media(min-width: 500){
+       #caja-central{
+       	    width: 299%!important;
+       }
+}
+@media(min-width: 510px){
+       #caja-central{
+       	    width: 304%!important;
+       }
+}
+@media(min-width: 520px){
+       #caja-central{
+       	    width: 310%!important;
+       }
+}
+
+@media(min-width: 530px){
+       #caja-central{
+       	    width: 318%!important;
+       }
+}
+@media(min-width: 540px){
+       #caja-central{
+       	    width: 318%!important;
+       }
+}
+@media(min-width: 550px){
+       #caja-central{
+       	    width: 330%!important;
+       }
+}
+@media(min-width: 560px){
+       #caja-central{
+       	    width: 336%!important;
+       }
+}
+@media(min-width: 550px){
+       #caja-central{
+       	    width: 318%!important;
+       }
+}
+@media(min-width: 560px){
+       #caja-central{
+       	    width: 344%!important;
+       }
+}
+@media(min-width: 570px){
+       #caja-central{
+       	    width: 318%!important;
+       }
+}
+@media(min-width: 580px){
+       #caja-central{
+       	    width: 330%!important;
+       }
+}
+@media(min-width: 600){
+       #caja-central{
+       	    width: 335%!important;
+       }
+}
+
+/**********************************/
+
+#contenedor-nav{
+	margin-top: 20px;
+	
+
+}
+.nav{
+	margin-bottom: -5px!important;
+}
+
+span{
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+.mb-2 {
+	width: 100%;
+}
+
+#info-confirmado{
+	background-color: #ff8f00!important;
+	font-weight: 900!important;
+}
+
+#info-conf-n{
+	background-color:#bf6b00!important;
+	/*text-align:center;*/
+}
+
+#info-infectado{
+	background-color: #b10dc9!important;
+	font-weight: 900!important;
+}
+#info-infe-n{
+	background-color: #850a97!important;
+}
+#info-muertos{
+	background-color: #ff4136!important;
+	font-weight: 900!important;
+}
+
+#info-muert-n{
+	background-color: #bf3129!important;
+}
+
+#info-recuperado{
+	background-color: #17ac28!important;
+	font-weight: 900!important;
+}
+#info-recupe-n{
+    background-color:#105f19!important; 
+}
+
+@media (min-width: 992px){
+	.col-lg-2 {
+		flex: 2 0 16.666667%;
+		max-width: 20.666667%;
+	}
+	h2{
+		margin-right: -19%;
+	}
+	#actualizado-info{
+		width: 100%;
+	}
+	span{
+		width: 100%;
+		padding:auto;
+		text-indent: 2%;
+
+	}
+	.col-lg-2,.col-sm-12{
+		position: relative;
+		padding-right:0px;
+		padding-left: 1px;
+
+	}
+	#info-confirmado,#info-infectado,#info-muertos,#info-recuperado{
+		border-radius: 5px 0px 0px 5px;
+		-moz-border-radius: 5px 0px 0px 5px;
+		-webkit-border-radius: 5px 0px 0px 5px;
+		border: 0px solid #000000;
+	}
+
+	#info-conf-n,#info-infe-n,#info-muert-n,#info-recupe-n{
+		border-radius: 0px 5px 5px 0px;
+		-moz-border-radius: 0px 5px 5px 0px;
+		-webkit-border-radius: 0px 5px 5px 0px;
+		border: 0px solid #000000;
+	}
+
+	#actualizado-info{
+		width:120%;
+	}
+	#info-conf-n,#info-infe-n,#info-muert-n,#info-recupe-n{
+		text-align:center!important;
+	}
+
 }
