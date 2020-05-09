@@ -10,6 +10,12 @@
 
 nav{
 	background-color: #222222;
+	/*position: fixed;*/
+/*	  background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;*/
+
 
 }
 .nav{
@@ -23,7 +29,7 @@ span{
 .boton-menu{
 	/*background-color:#165bff!important;*/
 	font-weight: 700;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     color:white;
     background-color: #165bff;
@@ -168,4 +174,27 @@ span{
          display: none!important;
 	}
 }
+
+@media(max-width:991px){
+
+    span{
+    	font-size: 12px!important;
+    }
+    .p-2{
+    	padding: 0.5rem!important;
+    }
+	.texto-logo{
+         display:none!important;
+	}
+	.mb-2, .my-2 {
+    margin-bottom: 0.3rem!important;
+}
+}
+
+@media(min-width:992px){
+	#icono{
+		display:none!important;
+	}
+}
+
 

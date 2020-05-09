@@ -5,4 +5,14 @@ body{
     line-height: 1.2;
     color: #ffffff;
     background: #111;
+   overflow-x: hidden;
 }
+
+/*app-header{
+	position: fixed;
+	top: 0;
+	width:100%;
+}
+app-informacion{
+	margin-top: 150px;
+}*/

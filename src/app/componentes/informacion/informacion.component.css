@@ -12,6 +12,7 @@
 /*@media(max-width: 291px) and (min-width: 892px){
 	.dropdown{
 		margin-bottom:5px!important;
+    
 	}
 }*/
 
@@ -155,34 +156,34 @@ ul {
 
 @media(min-width: 420px){
        #caja-central{
-       	    width: 252%!important;
+       	    width: 250%!important;
        }
 }
 
 @media(min-width: 430px){
        #caja-central{
-       	    width: 257%!important;
+       	    width: 258%!important;
        }
 }
 @media(min-width: 440px){
        #caja-central{
-       	    width: 262%!important;
+       	    width: 264%!important;
        }
 }
 @media(min-width: 450px){
        #caja-central{
-       	    width: 269%!important;
+       	    width: 268%!important;
        }
 }
 @media(min-width: 460px){
        #caja-central{
-       	    width: 278%!important;
+       	    width: 273%!important;
        }
 }
 
 @media(min-width: 470px){
        #caja-central{
-       	    width: 284%!important;
+       	    width: 280%!important;
        }
 }
 
@@ -200,65 +201,56 @@ ul {
 
 @media(min-width: 500){
        #caja-central{
-       	    width: 299%!important;
+       	    width: 302%!important;
        }
 }
 @media(min-width: 510px){
        #caja-central{
-       	    width: 304%!important;
+       	    width: 309%!important;
        }
 }
 @media(min-width: 520px){
        #caja-central{
-       	    width: 310%!important;
+       	    width: 315%!important;
        }
 }
 
 @media(min-width: 530px){
        #caja-central{
-       	    width: 318%!important;
+       	    width: 321%!important;
        }
 }
 @media(min-width: 540px){
        #caja-central{
-       	    width: 318%!important;
+       	    width: 329%!important;
        }
 }
-@media(min-width: 550px){
+/*@media(min-width: 550px){
        #caja-central{
        	    width: 330%!important;
        }
 }
 @media(min-width: 560px){
        #caja-central{
-       	    width: 336%!important;
+       	    width: 337%!important;
        }
 }
-@media(min-width: 550px){
-       #caja-central{
-       	    width: 318%!important;
-       }
-}
-@media(min-width: 560px){
+
+@media(min-width: 570px){
        #caja-central{
        	    width: 344%!important;
        }
-}
-@media(min-width: 570px){
+}*/
+/*@media(min-width: 580px){
        #caja-central{
-       	    width: 318%!important;
+       	    width: 352%!important;
        }
 }
-@media(min-width: 580px){
+@media(min-width: 590){
        #caja-central{
-       	    width: 330%!important;
+       	    width: 358%!important;
        }
-}
-@media(min-width: 600){
-       #caja-central{
-       	    width: 335%!important;
-       }
-}
+}*/
 
 /**********************************/
 
@@ -359,4 +351,13 @@ span{
 		text-align:center!important;
 	}
 
+}
+
+@media(max-width:700px){
+  .infectado{
+    display:none!important;
+  }
+  span{
+    font-size: 12px;
+  }
 }
